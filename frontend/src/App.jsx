@@ -269,6 +269,7 @@ const App = () => {
   
 
   const handleUserSelect = (e) => {
+    
     const selectedUserId = e.target.value;
     const user = users.find(user => user.socketId === selectedUserId);
     setSelectedUser(user);
